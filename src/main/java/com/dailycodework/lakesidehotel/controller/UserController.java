@@ -20,6 +20,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/users")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "https://ecommerce-hotel.vercel.app")
 public class UserController {
     private final IUserService userService;
 
