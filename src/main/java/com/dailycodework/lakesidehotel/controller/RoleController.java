@@ -21,7 +21,6 @@ import static org.springframework.http.HttpStatus.FOUND;
 @RestController
 @RequestMapping("/roles")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://ecommerce-hotel.vercel.app")
 public class RoleController {
     private final IRoleService roleService;
 

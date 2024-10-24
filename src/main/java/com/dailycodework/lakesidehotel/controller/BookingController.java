@@ -25,7 +25,6 @@ import java.util.List;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/bookings")
-@CrossOrigin(origins = "https://ecommerce-hotel.vercel.app")
 public class BookingController {
     private final IBookingService bookingService;
     private final IRoomService roomService;

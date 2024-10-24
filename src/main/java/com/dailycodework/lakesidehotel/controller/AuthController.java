@@ -32,7 +32,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://ecommerce-hotel.vercel.app")
 public class AuthController {
     private final IUserService userService;
     private final AuthenticationManager authenticationManager;
