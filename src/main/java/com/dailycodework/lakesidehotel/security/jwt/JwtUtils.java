@@ -16,9 +16,6 @@ import java.util.Date;
 import java.util.List;
 
 
-/**
- * @author Simpson Alfred
- */
 
 @Component
 public class JwtUtils {
