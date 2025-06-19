@@ -15,9 +15,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @author Simpson Alfred
- */
 
 @Service
 @RequiredArgsConstructor
